@@ -1,0 +1,152 @@
+.body {
+  font-family: "Roboto", Arial, sans-serif;
+}
+.search__box {
+  margin: 0px;
+  display: flex;
+  position: relative;
+  /* Desktop/tablet: co dãn theo chiều ngang màn hình */
+  width: clamp(240px, 40vw, 500px);
+  /* 1. HIỆU ỨNG CHUYỂN TỪ INPUT SANG BOX */
+  border-radius: 50px; /* Tạo bo góc cho cả khối */
+  border: 1px solid #575756; /* Tạo viền cho cả khối */
+  transition: all 100ms ease-in-out;
+
+  /* Các thuộc tính 3D (thường liên quan đến hiệu ứng hover) */
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  &:hover,
+  &:focus-within {
+    border: 1px solid transparent;
+    border-bottom: 1px solid #575756;
+    border-radius: 0;
+    transition: all 250ms ease-in-out;
+  }
+}
+
+#search-input {
+  box-sizing: content-box;
+  width: 100%;
+  /* chừa khoảng bên phải cho nút clear */
+  padding: 12px 32px 12px 12px;
+  border: none;
+  outline: none; /* Bỏ viền mặc định khi focus */
+  z-index: 100;
+  background-color: transparent;
+  font-size: 14px;
+  line-height: 18px;
+  color: #575756;
+
+  /*ảnh nền (kính lúp) */
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  background-position: 95% center; /* Vị trí icon search */
+  transition: all 250ms ease-in-out;
+
+  &:hover,
+  &:focus {
+    background-position: calc(100% - 8px) center;
+    padding: 12px 0px 12px 0px;
+  }
+}
+
+#search-input::placeholder {
+  color: rgba(87, 87, 86, 0.8);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+/* Responsive: trên màn nhỏ, thu gọn thanh search chỉ còn icon kính lúp */
+@media screen and (max-width: 950px) {
+  .search__box {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 0;
+  }
+
+  #search-input {
+    width: 100%;
+    padding: 0;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    background-position: center;
+    background-size: 18px 18px;
+    font-size: 0; /* ẩn text khi chưa focus */
+  }
+
+  /* #search-input::placeholder {
+    color: transparent; 
+  } */
+
+  #search-input:hover,
+  #search-input:focus {
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    font-size: 14px;
+    background-position: 100%;
+  }
+
+  .search__box:hover,
+  .search__box:focus-within {
+    width: 100%;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #575756;
+    border-radius: 0;
+    transition: all 250ms ease-in-out;
+  }
+  .clear__button {
+    transform: translateY(-100%);
+    display: none;
+  }
+}
+
+.clear__button {
+  position: absolute;
+  top: 50%; /* Đặt giữa theo chiều dọc */
+  right: 8px;
+  transform: translateY(-50%); /* Căn chỉnh chính xác vào giữa */
+  cursor: pointer;
+  font-size: 20px;
+  color: #999;
+  z-index: 200; /* cao hơn input để nhận click */
+}
+
+.suggestions__box {
+  position: absolute;
+  width: 100%;
+  top: calc(100% + 5px); /* Đặt ngay dưới ô tìm kiếm */
+  border: 1px solid transparent;
+  border-radius: 20px;
+  z-index: 10; /* Đảm bảo nó nằm trên các phần tử khác */
+  background-color: #f3f3f3;
+  max-height: 200px;
+  overflow-y: auto;
+  /* Ẩn thanh cuộn nhưng vẫn cho phép cuộn (Firefox) */
+  scrollbar-width: none;
+  scrollbar-color: transparent transparent;
+}
+
+/* Ẩn thanh cuộn cho Chrome/Edge/Safari */
+.suggestions__box::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.suggestion-item {
+  width: 90%;
+  padding: 10px 5%;
+  cursor: pointer;
+}
+.suggestion-item:hover {
+  background-color: #f0f0f0;
+}
+
+@media (min-width: 1440px) {
+  .search__box {
+    -webkit-flex-basis: calc(100% - (180px + 20px));
+    -ms-flex-preferred-size: calc(100% - (180px + 20px));
+    flex-basis: calc(100% - (180px + 20px));
+  }
+}

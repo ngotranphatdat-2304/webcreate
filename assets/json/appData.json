@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Genshin Impact",
+    "logoUrl": "https://play-lh.googleusercontent.com/AAL-aJSzGV_C5XCCsiQX2VRPuMouUK-jLQ6D_3BrBfaYD4D81iQMTJ3u1Ihsw6b5kGM=w240-h480-rw",
+    "trailerHtml": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/w50jW_iEXns?si=N4RT4rZ5AFzP_4Uu&controls=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "publisher": "HoYoverse",
+    "costType": "Miễn phí (In-app purchases)",
+    "rating": 4.5,
+    "downloads": "100Tr+"
+  },
+  {
+    "id": 2,
+    "name": "Candy Crush Saga",
+    "logoUrl": "https://play-lh.googleusercontent.com/5rXW4qrknrqyM_rS8sMf9XchD-Pj4_oGthcVtu9zx7yl7_dOEPH_xpuD6nNg0yk7TyM=s64-rw",
+    "trailerHtml": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/gJjCGmMkAIw?si=ZDGJrqO7COSVMVZ6\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "publisher": "King",
+    "costType": "Miễn phí (In-app purchases)",
+    "rating": 4.6,
+    "downloads": "1T+"
+  },
+  {
+    "id": 3,
+    "name": "YouTube",
+    "logoUrl": "https://play-lh.googleusercontent.com/6am0i3walYwNLc08QOOhRJttQENNGkhlKajXSERf3JnPVRQczIyxw2w3DxeMRTOSdsY=s48-rw",
+    "trailerHtml": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/__NeP0RqACU?si=a0_OlDFh1-Xerer3\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "publisher": "Google LLC",
+    "costType": "Miễn phí (Ads & Subscriptions)",
+    "rating": 4.1,
+    "downloads": "5T+"
+  },
+  {
+    "id": 4,
+    "name": "Minecraft",
+    "logoUrl": "https://i.pinimg.com/originals/7f/c4/9c/7fc49c4adbc07dfa36156c131d4c4f7a.jpg",
+    "trailerHtml": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jLuJbSjo7NA?si=i4YKU9aKbrsbwLjt\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "publisher": "Mojang",
+    "costType": "Có phí",
+    "rating": 4.5,
+    "downloads": "10Tr+"
+  },
+  {
+    "id": 5,
+    "name": "Spotify: Music and Podcasts",
+    "logoUrl": "https://play-lh.googleusercontent.com/7ynvVIRdhJNAngCg_GI7i8TtH8BqkJYmffeUHsG-mJOdzt1XLvGmbsKuc5Q1SInBjDKN=s52-rw",
+    "trailerHtml": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/1ukNbc7EEyU?si=oqYdh08AsdqOS-xD\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "publisher": "Spotify AB",
+    "costType": "Miễn phí (Ads & Premium)",
+    "rating": 4.4,
+    "downloads": "500Tr+"
+  },
+  {
+    "id": 6,
+    "name": "Call of Duty: Mobile",
+    "logoUrl": "https://play-lh.googleusercontent.com/uPRFWFbiASqohiTMTKrD5gErGrKxq_1DgH0npRQcvUEDDLMLTECh3xXl0STPBZZseA=w240-h480-rw",
+    "trailerHtml": "<iframe width=\"853\" height=\"480\" src=\"https://www.youtube.com/embed/0W2ZPF_etkc\" title=\"CODM Evergreen Sep 2025 ; Splash Screen + CG Intro (EN) ; 1920x1080\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "publisher": "Activision Publishing, Inc.",
+    "costType": "Miễn phí (In-app purchases)",
+    "rating": 4.3,
+    "downloads": "300Tr+"
+  },
+  {
+    "id": 7,
+    "name": "Tiktok",
+    "logoUrl": "https://play-lh.googleusercontent.com/Ui_-OW6UJI147ySDX9guWWDiCPSq1vtxoC-xG17BU2FpU0Fi6qkWwuLdpddmT9fqrA=s52-rw",
+    "trailerHtml": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/QNiSAel5UjU?si=1wivkFSn1l2nkk5I\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "publisher": "Tiktok Pte. Ltd.",
+    "costType": "Miễn phí",
+    "rating": 3.7,
+    "downloads": "1T+"
+  },
+  {
+    "id": 8,
+    "name": "CapCut - Video Editor",
+    "logoUrl": "https://play-lh.googleusercontent.com/U_WfGRqPSlVcW1wktq-HJCo7KfDdEX2LXkkY2ywSwznbL6PgFYf0znMncSzqbt-uRCM=s52-rw",
+    "trailerHtml": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/gXpeatIFFAM?si=pOBV9X3rX5kytmY1\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "publisher": "Bending Spoons",
+    "costType": "Miễn phí",
+    "rating": 4.5,
+    "downloads": "500Tr+"
+  },
+  {
+    "id": 9,
+    "name": "Duolingo: Learn Languages",
+    "logoUrl": "https://play-lh.googleusercontent.com/R9cWCWIipRjt2EdLy30ckT_JNoxscWnCnuS94OKzZGmEZiZiGlMDVdpd5unNGWCltE7DNqFaTxcOD_E6HkRTmw=s52-rw",
+    "trailerHtml": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4ekjWHhtrYM?si=SV8myRaPG7jjYvjo\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "publisher": "Duolingo",
+    "costType": "Miễn phí (Premium subscription)",
+    "rating": 4.7,
+    "downloads": "500Tr+"
+  },
+  {
+    "id": 10,
+    "name": "Pocket Casts",
+    "logoUrl": "https://play-lh.googleusercontent.com/Hz1gtRR_LM7e24MBOP_WyOkcNz6e0P7I446NTIJOX2jR7MdP2PvGhDwQVQU__bqharc=s52-rw",
+    "trailerHtml": "<iframe width=\"853\" height=\"480\" src=\"https://www.youtube.com/embed/CHAvjgr9g5Y\" title=\"Pocket Casts - Multiplatform podcast player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "publisher": "Automattic, Inc.",
+    "costType": "Miễn phí (Plus subscription)",
+    "rating": 4.6,
+    "downloads": "1Tr+"
+  }
+]
